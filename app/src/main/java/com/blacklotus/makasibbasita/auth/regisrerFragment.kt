@@ -55,14 +55,13 @@ class regisrerFragment : Fragment() {
         binding.registerButton.setOnClickListener {
             val auth: AuthService = ServiceBuilder.buildService(AuthService::class.java)
             try {
-              val response=  auth.register(RegisterRequest("e","p"))
 
-//
-//            val response: Call<RegisterResponse> = auth.register(RegisterRequest(
-//                    binding.email.text.toString(),
-//                    binding.passwordField.text.toString(),
-//
-//                    ))
+
+            val response: Call<RegisterResponse> = auth.register(RegisterRequest(
+                    binding.email.text.toString(),
+                    binding.passwordField.text.toString(),
+
+                    ));
                 response.enqueue(object : retrofit2.Callback<RegisterResponse> {
                     override fun onResponse(
                         call: Call<RegisterResponse>,
