@@ -1,0 +1,9 @@
+<radial-gradient xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gradientRadius="500"
+    android:centerX="50%"
+    android:centerY="50%">
+    <item android:offset="0.0"
+        android:color="#0000FF" />
+    <item android:offset="1.0"
+        android:color="#ADD8E6" />
+</radial-gradient>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MakasibBasita</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">التالي </string>
+    <string name="previous">السابق</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet
+    </string>
+    <string name="title_activity_login">تسجيل الدخول </string>
+    <string name="prompt_email">البريد الالكتروني </string>
+    <string name="prompt_password">كلمة السر</string>
+    <string name="action_sign_in">تسيجيل الدخول او نشاء حساب</string>
+    <string name="action_sign_in_short">تسجيل الدخول </string>
+    <string name="welcome">"مرحبا بك !"</string>
+    <string name="invalid_username">اسم المستخدم غلط</string>
+    <string name="invalid_password">كلمة السر لازم تكون اكثر من 5 احرف</string>
+    <string name="login_failed">"فشل تسجيل الدخزل حاول مره اخري"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">تسجيل الدخول </string>
+    <string name="password">كلمة السر</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="register">انشاء حساب</string>
+    <string name="you_don_t_have_an_account_register_now">لسه جديد ؟ سجل حساب لان !!</string>
+    <string name="do_you_already_have_an_account_login_now">عندك حساب ؟ سجل الدخول لان !!</string>
+    <string name="login_now">سجل الدخول </string>
+    <string name="register_now">انشاء حساب جديد</string>
+    <string name="welcome_back">مرحبا بعودتك </string>
+    <string name="watch_ads">مشاهدة اعلان</string>
+    <string name="task">اعلانات المهام</string>
+    <string name="home">الرئيسية</string>
+    <string name="redeem">السحب</string>
+
+    <string name="profile">حسابك</string>
+    <string name="my_points">نقاطك:</string>
+    <string name="my_coins">عملاتك:</string>
+    <string name="email">Email</string>
+</resources>
